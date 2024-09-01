@@ -2,7 +2,7 @@ import qrcode
 
 # Replacing this with your actual vercal link
 
-portfolio_url = "https://myportfolio-q2t7yv434-aanand452s-projects.vercel.app/"
+portfolio_url = "https://myportfolio-eight-flame.vercel.app/"
 
 
 # create a qrcode  object
@@ -25,6 +25,6 @@ qr.make(fit=True)
 img = qr.make_image(fill="black",back_color='white')
 
 # Save the image file
-img.save("portfolio_qr_code.png")
+img.save("anand_portfolio_qr_code.png")
 
 print("QR Code generated and saved as portfolio_qr_code.png")
